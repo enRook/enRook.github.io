@@ -1,0 +1,613 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: Arial;
+    background-color: rgb(13, 12, 37);
+    
+}
+.container{
+    
+    margin:10px;
+    width:100%;
+    height:100vh;
+    position:relative;
+    margin-top: 10px;
+    margin-bottom: 340px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+#midtxt1{
+    color:yellow;
+    font-size:xx-large;
+    position: absolute;
+    top:345px;  
+    left:330px;
+    background: none;
+}
+#midtxt2{
+color:white;
+position: absolute;
+top:355px;
+left:380px;
+background: none;
+}
+#midtxt3{
+    color:yellow;
+    font-size:xx-large;
+    position: absolute;
+    top:345px;  
+    left:610px;
+    background: none;
+}
+#midtxt4{
+color:white;
+position: absolute;
+top:355px;
+left:640px;
+background: none;
+}
+#midtxt5{
+    color:yellow;
+    font-size:xx-large;
+    position: absolute;
+    top:345px;  
+    left:870px;
+    background: none;
+}
+#midtxt6{
+color:white;
+position: absolute;
+top:355px;
+left:900px;
+background: none;
+}
+#midtxt7{
+    color:yellow;
+    font-size:xx-large;
+    position: absolute;
+    top:345px;  
+    left:1115px;
+    background: none;
+}
+#midtxt8{
+color:white;
+position: absolute;
+top:355px;
+left:1180px;
+background: none;
+}
+#midtxt9{
+  font-size: xx-large;
+  color:white;
+  position: absolute;
+  top:450px;
+  left:360px;
+  background: none;
+  }
+
+.sidebar{
+    width:20%;
+    height:150vh;
+    background-color: rgba(0, 0, 0, 0.205);
+    color: aliceblue;
+    position:absolute;
+   
+}
+.profilepic{
+display:flex;
+justify-content:center;
+background-color: rgba(0, 0, 0, 0.205) ;
+width:100%;
+height:27vh;
+position:absolute;
+
+
+
+}
+#pfp{
+width:70px;
+height:70px;
+border-radius: 100%;
+border: 1px solid #ccc;
+position: absolute;
+background: none;
+}
+#yellowtick{
+height:15px;
+width:15px;
+background-color: yellow;
+top:49px;
+right:99px;
+border-radius: 100%;
+position:absolute;
+
+
+}
+#name{
+font-size:medium ;
+position:absolute;
+background: none;
+top:80px;
+
+}
+#description{
+  
+  position:absolute;
+  top:100px;
+  background: none;
+  font-size:12px ;
+  color:gray;
+  
+}
+  
+#description2{
+  
+  position:absolute;
+  top:118px;
+  background: none;
+  font-size:12px ;
+  color:gray;
+}
+.Information{
+ 
+ position:absolute;
+  background-color: rgba(0, 0, 0, 0.205) ;
+  width:100%;
+  height:20vh;
+top:180px;
+
+ 
+
+}
+#a{
+ 
+  font-size:medium ;
+position:absolute;
+background: none;
+top:20px;
+left:15px;
+
+
+
+}
+#b{
+  display: flex;
+position:absolute;
+background: none;
+right:10px;
+top:20px;
+  font-size:12px ;
+  color:gray;
+
+
+}
+#c{
+  display: flex;
+  font-size:medium ;
+position:absolute;
+background: none;
+top:50px;
+left:15px;
+
+
+
+}
+#d{
+  display: flex;
+  font-size:medium ;
+position:absolute;
+background: none;
+top:51px;
+right:10px;
+font-size:12px ;
+color:gray;
+
+
+
+}
+#e{
+  display: flex;
+  font-size:medium ;
+position:absolute;
+background: none;
+top:80px;
+left:15px;
+
+
+}
+#f{
+  display: flex;
+  font-size:medium ;
+position:absolute;
+background: none;
+top:80px;
+right:10px;
+font-size:12px ;
+color:gray;
+
+}
+
+.circularprogressbarcontainer{
+ 
+     position:absolute;
+     background-color: rgba(0, 0, 0, 0.205) ;
+     width:100%;
+     height:35vh;
+     top:315px;
+   
+} 
+#k{
+  display: flex;
+  font-size:medium ;
+position:absolute;
+background: none;
+top:15px;
+left:70px;
+} 
+#l{
+  display: flex;
+  font-size:x-large ;
+position:absolute;
+background: none;
+top:90px;
+left:15px;
+color:yellow;
+word-spacing: 24px;
+}
+#m{
+  display: flex;
+  font-size:12px ;
+  position:absolute;
+  background: none;
+  top:130px;
+  left:20px;
+  color: gray;
+
+}
+
+#spacing{
+  word-spacing: 31px;
+}
+
+
+.linearprogressbar{
+
+  position:absolute;
+     background-color: rgba(0, 0, 0, 0.205) ;
+     width:100%;
+     height:45vh;
+     top:545px;
+     padding:10px ;
+}
+
+#linebar{
+  width: 55%;
+  height:5px;
+  background-color: yellow;
+  position:absolute;
+  top:40px;
+  left:16px;
+  
+
+
+ 
+}
+#n{
+  font-size:medium ;
+position:absolute;
+background: none;
+top:20px;
+left:15px;
+
+}
+#gray{
+  color:gray;
+  font-size:12px ;
+  position:absolute;
+  left:200px;
+  background: none;
+}
+#o{
+  font-size:medium ;
+  position:absolute;
+  background: none;
+  top:60px;
+  left:15px;
+}
+#linebar2{
+  width: 45%;
+  height:5px;
+  background-color: yellow;
+  position:absolute;
+  top:82px;
+  left:16px;
+}
+#p{
+  font-size:medium ;
+  position:absolute;
+  background: none;
+  top:100px;
+  left:15px;
+}
+#linebar3{
+  width: 3%;
+  height:5px;
+  background-color: yellow;
+  position:absolute;
+  top:123px;
+  left:16px;
+}
+#q{
+  font-size:medium ;
+  position:absolute;
+  background: none;
+  top:142px;
+  left:15px;
+}
+#linebar4{
+  width: 36%;
+  height:5px;
+  background-color: yellow;
+  position:absolute;
+  top:163px;
+  left:16px;
+}
+#r{
+  font-size:medium ;
+  position:absolute;
+  background: none;
+  top:180px;
+  left:15px;
+}
+#linebar5{
+  width: 36%;
+  height:5px;
+  background-color: yellow;
+  position:absolute;
+  top:202px;
+  left:16px;
+}
+#s{
+  font-size:medium ;
+  position:absolute;
+  background: none;
+  top:213px;
+  left:15px;
+}
+#linebar6{
+  width: 9%;
+  height:5px;
+  background-color: yellow;
+  position:absolute;
+  top:232px;
+  left:16px;
+}
+
+.aboutprogressbar{
+
+  position:absolute;
+     background-color: rgba(0, 0, 0, 0.205) ;
+     width:100%;
+     height:20vh;
+     top:840px;
+}
+#t{
+  display: flex;
+  font-size:12px ;
+  position:absolute;
+  background: none;
+  top:10px;
+  left:20px;
+  color: gray;
+  padding:15px;
+}
+.aside1{
+    width:76vw;
+    height:50vh;
+    background-color: rgba(0, 0, 0, 0.205);
+    color:aliceblue;
+    position: absolute;
+    top:20px;
+    left:300px;
+    border-radius: 5px;
+
+}
+#imgbkg{
+   
+    width:100vw;
+    height:150vh;
+    color:aliceblue;
+    position: absolute;
+    opacity: 10%;
+
+}
+#imgbkg1{
+    
+    width:76vw;
+    height:50vh;
+    color:aliceblue;
+    position: absolute;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  
+
+}
+#g{
+    position:relative;
+    top:80px;
+    left:100px;
+    background: none;
+    font-size: 50px;
+    font-family:Verdana,  sans-serif;
+    color:yellow;
+    
+    
+}
+#h{
+  position:relative;
+  top:80px;
+  left:100px;
+  background: none;
+  font-size: 40px;
+  font-family:Verdana,  sans-serif;
+  color:white;
+}
+#i{
+  position:relative;
+  top:80px;
+  left:100px;
+  background: none;
+  font-size: 40px;
+  font-family:Verdana,  sans-serif;
+  color:white;
+}
+
+
+
+  .card {
+    display: inline-block;
+    width: 300px;
+    height: 400px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s;
+    top:500px;
+    left:350px;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .card-image1 {
+      position:absolute;
+      top:0;
+      left:0;
+    width: 100%;
+    height: 100%;
+    background: url('web.jpg') center/cover;
+  }
+  .card-image2 {
+    position:absolute;
+    top:0;
+    left:0;
+  width: 100%;
+  height: 100%;
+  background: url('gaming.jpg') center/cover;
+}
+.card-image3 {
+    position:absolute;
+    top:0;
+    left:0;
+  width: 100%;
+  height: 100%;
+  background: url('Music.jpg') center/cover;
+}
+  
+  .card-content {
+      position:relative;
+      top:260px;
+    padding: 20px;
+    color:blanchedalmond;
+    background: none;
+  }
+#cardtxt{
+  position:relative;
+  top: 10px;
+  background: none;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+  
+  .card-button {
+    display: none;
+    position: absolute;
+    bottom: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 8px 16px;
+    background-color: #f83b5a;
+    border: none;
+    color: #FFFFFF;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    text-align: center;
+  width:200px;
+  text-decoration: none;
+
+  
+   
+   
+  }
+  
+  .card:hover .card-button {
+    position: absolute;
+    text-align: center;
+    display: block;
+  }
+
+  
+  .aside-button {
+    display: none;
+    position: absolute;
+    bottom:10px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 8px 16px;
+    background-color: #f83b5a;
+    border: none;
+    color: #FFFFFF;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    text-align: center;
+  width:200px;
+  text-decoration: none;
+
+   
+  }
+
+  .aside1:hover .aside-button{
+  position: absolute;
+    text-align: center;
+    display: block;
+   
+}
+.aside1{
+
+  display:inline-block;
+  overflow: hidden;
+}
+.aside1 img{
+  transition:transform 0.3s ease;
+}
+.aside1:hover img{
+  transform: scale(3);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  

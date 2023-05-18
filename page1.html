@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="page1.css" rel="stylesheet"></link>
+  <link href="css\bootstrap.css" rel="stylesheet"></link>
+  <script href="js\bootstrap.js" ></script>
+    <link rel="icon" href="Music.jpg" type="image/x-icon">
+  <title>Art Commision Request</title>
+  
+</head>
+<body>
+  <div class="container">
+    <h1 id="n">Art Commision Request</h1>
+    <form>
+      <label id="n" for="name">Your Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label id="n" for="email">Your Email:</label>
+      <input type="text" id="email" name="email" required>
+
+      <label id="n" for="request">Design Request:</label>
+      <textarea id="request" name="request" required></textarea>
+
+      <a href="#" onclick="sendEmail()" class="button">Submit Request</a>
+    </form>
+  </div>
+
+  <script>
+    function sendEmail() {
+      var name = document.getElementById('name').value;
+      var email = document.getElementById('email').value;
+      var request = document.getElementById('request').value;
+      
+      var subject = "Web Design Request";
+      var body = "Name: " + name + "\n";
+      body += "Email: " + email + "\n";
+      body += "Request: " + request;
+
+      window.location.href = "mailto:alcordoshan@gmail.com?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(body);
+    }
+  </script>
+</body>
+</html>
